@@ -35,11 +35,11 @@ Proof:
 Inside a transaction block, a model object was created and the signal also created another database entry. An exception forced the transaction to rollback. After rollback, both database tables were empty, proving both operations were part of the same transaction.
 
 ![image](screenshots/c1.jpg)
+![image](screenshots/c2.jpg)
+![image](screenshots/c3.jpg)
+![image](screenshots/c4.jpg)
+![image](screenshots/c5.jpg)
 
-c2.jpg
-c3.jpg
-c4.jpg
-c5.jpg
 ---
 
 ## Topic 2: Custom Rectangle Class
@@ -51,7 +51,8 @@ Example Output:
 {'length': 10}
 {'width': 5}
 
-d1.jpg
+![image](screenshots/d1.jpg)
+
 ---
 
 ## Setup Instructions

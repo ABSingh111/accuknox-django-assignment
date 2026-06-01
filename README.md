@@ -9,6 +9,8 @@ By default, Django signals are executed synchronously.
 Proof:
 A delay of 5 seconds was added using time.sleep(5) inside the signal. The browser response also took approximately 5 seconds, proving the caller waited for the signal execution to complete.
 
+![image](https://github.com/ABSingh111/accuknox-django-assignment/blob/main/screenshots/a1.jpg)
+
 ---
 
 ### Question 2

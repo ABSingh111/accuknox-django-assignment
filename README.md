@@ -33,6 +33,11 @@ Django signals run in the same database transaction as the caller.
 Proof:
 Inside a transaction block, a model object was created and the signal also created another database entry. An exception forced the transaction to rollback. After rollback, both database tables were empty, proving both operations were part of the same transaction.
 
+c1.jpg
+c2.jpg
+c3.jpg
+c4.jpg
+c5.jpg
 ---
 
 ## Topic 2: Custom Rectangle Class
@@ -44,6 +49,7 @@ Example Output:
 {'length': 10}
 {'width': 5}
 
+d1.jpg
 ---
 
 ## Setup Instructions

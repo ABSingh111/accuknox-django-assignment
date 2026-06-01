@@ -12,6 +12,7 @@ A delay of 5 seconds was added using time.sleep(5) inside the signal. The browse
 ![image](https://github.com/ABSingh111/accuknox-django-assignment/blob/main/screenshots/a1.jpg)
 
 ![image](https://github.com/ABSingh111/accuknox-django-assignment/blob/main/screenshots/a2.jpg)
+
 ---
 
 ### Question 2
@@ -33,7 +34,8 @@ Django signals run in the same database transaction as the caller.
 Proof:
 Inside a transaction block, a model object was created and the signal also created another database entry. An exception forced the transaction to rollback. After rollback, both database tables were empty, proving both operations were part of the same transaction.
 
-c1.jpg
+![image](screenshots/c1.png)
+
 c2.jpg
 c3.jpg
 c4.jpg

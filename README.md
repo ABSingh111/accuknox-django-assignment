@@ -34,7 +34,7 @@ Django signals run in the same database transaction as the caller.
 Proof:
 Inside a transaction block, a model object was created and the signal also created another database entry. An exception forced the transaction to rollback. After rollback, both database tables were empty, proving both operations were part of the same transaction.
 
-![image](screenshots/c1.png)
+![image](screenshots/c1.jpg)
 
 c2.jpg
 c3.jpg

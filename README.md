@@ -22,6 +22,8 @@ Proof:
 The caller thread ID and signal thread ID were printed and both values were identical.
 
 ![image](https://github.com/ABSingh111/accuknox-django-assignment/blob/main/screenshots/b1.jpg)
+![image](https://github.com/ABSingh111/accuknox-django-assignment/blob/main/screenshots/b2.jpg)
+
 ---
 
 ### Question 3

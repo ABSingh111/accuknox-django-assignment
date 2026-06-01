@@ -11,6 +11,7 @@ A delay of 5 seconds was added using time.sleep(5) inside the signal. The browse
 
 ![image](https://github.com/ABSingh111/accuknox-django-assignment/blob/main/screenshots/a1.jpg)
 
+![image](https://github.com/ABSingh111/accuknox-django-assignment/blob/main/screenshots/a2.jpg)
 ---
 
 ### Question 2
